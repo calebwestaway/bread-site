@@ -6,8 +6,21 @@ h2 {
     font-size: large;
 }
 
-.center {
+.centerText {
     text-align: center;
+}
+
+.centerScreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.white {
+    background-color: rgb(255, 255, 255);
 }
 
 .spelt-wrong {
