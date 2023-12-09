@@ -16,8 +16,23 @@ h1 {
 
 
 h2 {
-    font-size: clamp(10px, 10vw, 600px);
-    margin-bottom: 0;
+    font-size: 10vw;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20vw;
+    margin: 0;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.centerScreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    text-align: center;
 }
 
 blockquote {
@@ -48,19 +63,6 @@ blockquote::before {
 blockquote::after {
     bottom: -1.8vw; /* Adjust the bottom value using viewport units as needed */
     right: 1.2vw; /* Adjust the right value using viewport units as needed */
-}
-
-.centerText {
-    text-align: center;
-}
-
-.centerScreen {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 100vh;
-    text-align: center;
 }
 
 .white {
