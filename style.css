@@ -1,6 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito:wght@400;700&display=swap');
 
-h1, h2, h3, h4, h5, h6 {
+:root {
+    --grey: #363537ff;
+    --red: #ef4566ff;
+    --lightblue: #c6d8ffff;
+    --blue: rgb(125, 169, 247);
+    --green: #2fbf90ff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Nunito', sans-serif;
 }
 
@@ -39,5 +52,5 @@ h3 {
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: rgb(146, 166, 245);
+    background-color: var(--blue);
 }
